@@ -120,7 +120,7 @@ st.scatter_chart(st.session_state.df, x="x", y="y", color=color)
   #   - file needs to be created if not present secretes.toml
 
 
-conn = st.connection("my_database")
-df = conn.query("select * from table1")
-st.dataframe(df)
+# conn = st.connection("my_database")
+# df = conn.query("select * from table1")
+# st.dataframe(df)
 
